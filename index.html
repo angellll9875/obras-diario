@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Materiais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Controle de Materiais por Obra</h1>
+  </header>
+
+  <main>
+    <section class="add-obra">
+      <h2>Adicionar Obra</h2>
+      <input type="text" id="obraNome" placeholder="Nome da Obra">
+      <button onclick="adicionarObra()">Adicionar</button>
+    </section>
+
+    <section id="obrasContainer" class="obras-container"></section>
+
+    <section class="resumo">
+      <h2>Resumo Geral</h2>
+      <ul id="resumoMateriais"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
